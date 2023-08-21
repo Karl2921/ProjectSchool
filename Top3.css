@@ -1,0 +1,102 @@
+.Home {
+    border-style: solid;
+    border-width: 1px;
+    color: #e0e0e0 ;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Home button {
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    background-color: #232323;
+    border-style: none;
+    color: white;
+}
+
+.HomeButton,
+.Top5Button,
+.CodingJourneyButton {
+    cursor: pointer;
+}
+
+
+.Home button:hover {
+    background-color: #2c2c2c;
+    color: #ff6f61;
+}
+
+.Home button:active {
+    background-color: #ff6f61;
+    color: white;
+}
+
+/*BODY
+ */
+
+.CodingJourneyText {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.CodingJourneyText p {
+    font-size: 40px;
+    color: #cfedf3;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-bottom-color: #17a0ff;
+
+}
+
+.Top3Div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Div1
+{
+    background-color: #232323;
+    margin-right: 50px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-style: inset;
+    border-color: #ff6f61;
+    border-width: 2px;
+    gap: 20px;
+}
+
+.Div1 img {
+    height: 270px;
+    width: 220px;
+}
+
+.Top3Div p {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #cfedf3;
+}
+
+.Div1 img {
+    border-style: solid;
+    border-color: #5a6367;
+    border-width: 2px;
+
+}
+
+
