@@ -10,3 +10,7 @@ p {
 a {
     text-decoration: none;
 }
+
+.Div1 img:hover {
+    opacity: 0.5;
+}
